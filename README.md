@@ -16,32 +16,68 @@ Project consists of using Pandas to read the data (Normal.txt and Abnormal.txt) 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open the IPython QT Console with a monokai theme and to free up the terminal: <br/>
+<img src="images/Extract1.png" width="80%" >
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Load the Pandas and OS libraries and to create an alias for Pandas (pd):  <br/>
+<img src="images/Extract2.png" width="80%" >
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Change the current working directory to lab13: <br/>
+<img src="images/Extract3.png" width="80%" >
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Read the data (Normal.txt) in as a dataframe and to let Pandas know that the data is not labeled:  <br/>
+<img src="images/Extract4.png" width="80%" >
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+View the first 5 rows of the dataframe DF:  <br/>
+<img src="images/Extract5.png" width="80%" >
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Assign an arbitrary name for the column:  <br/>
+<img src="images/Extract6.png" width="80%" >
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Read the data (Abnormal.txt) in as a dataframe and to let Pandas know that the data contains no labels:  <br/>
+<img src="images/Extract7.png" width="80%" >
+<br />
+<br />
+Assign the arbitrary name of X2 to the column: <br/>
+<img src="images/Extract8.png" width="80%" >
+<br />
+<br />
+Return the number of rows and columns in the dataframe and compare the number of rows:  <br/>
+<img src="images/Extract9.png" width="80%" >
+<br />
+<br />
+Append all the rows to itself 4x and to ignore the fact that the row numbering will not be unique: <br/>
+<img src="images/Extract10.png" width="80%" >
+<br />
+<br />
+Verify the number has increased 4x:  <br/>
+<img src="images/Extract11.png" width="80%" >
+<br />
+<br />
+Concatenate the two dataframes together and axis=1 means to join columns:  <br/>
+<img src="images/Extract12.png" width="80%" >
+<br />
+<br />
+View the first 5 rows:  <br/>
+<img src="images/Extract13.png" width="80%" >
+<br />
+<br />
+Drop any rows that contain empty cells:  <br/>
+<img src="images/Extract14.png" width="80%" >
+<br />
+<br />
+Verify the number of rows has decreased from 4863905 to 3925650:  <br/>
+<img src="images/Extract15.png" width="80%" >
+<br />
+<br />
+Quit:  <br/>
+<img src="images/Extract16.png" width="80%" >
 </p>
 
 <!--
